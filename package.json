@@ -1,0 +1,20 @@
+{
+  "name": "honestqr-api",
+  "version": "1.0.0",
+  "description": "Vercel serverless API for generating static QR codes",
+  "main": "api/qr.ts",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "vercel build",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0",
+    "@types/qrcode": "^1.5.5",
+    "typescript": "^5.0.0"
+  }
+}
